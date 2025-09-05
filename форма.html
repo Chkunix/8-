@@ -1,0 +1,72 @@
+﻿<html lang="uk">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Форма — дядь юра</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body id="top">
+    <header>
+        <div class="container">
+            <h1>дядь юра — Форма</h1>
+            <nav aria-label="Головне меню">
+                <a href="tableflip.html">Головна</a>
+                <a href="table.html">Таблиця</a>
+                <a href="форма.html">Форма</a>
+                <a href="ціни.html">Про нас</a>
+            </nav>
+        </div>
+    </header>
+    <div class="anchor-bar">
+        <a href="#bottom">Вниз сторінки ↓</a>
+    </div>
+    <main class="container">
+        <section class="card">
+            <h2>Форма зворотного зв’язку</h2>
+            <form action="#" method="post">
+                <div>
+                    <label for="name">Ім’я *</label>
+                    <input type="text" id="name" name="name" required />
+                </div>
+
+                <div>
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" required />
+                </div>
+                <div>
+                    <label for="topic">Тема</label>
+                    <select id="topic" name="topic">
+                        <option>Запитання</option>
+                        <option>Відгук</option>
+                    </select>
+                </div>
+                <fieldset>
+                    <legend>Пріоритет</legend>
+                    <label><input type="radio" name="priority" value="low" /> Низький</label>
+                    <label><input type="radio" name="priority" value="high" /> Високий</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Додатково</legend>
+                    <label><input type="checkbox" name="subscribe" /> Підписка</label>
+                </fieldset>
+
+                <div>
+                    <label for="message">Повідомлення *</label>
+                    <textarea id="message" name="message" required></textarea> 
+                </div>
+
+                <button type="submit">Надіслати</button>
+            </form>
+        </section>
+    </main>
+    <div id="bottom" class="container">
+        <a href="#top">Вгору сторінки ↑</a>
+    </div>
+    <footer>
+        <div class="container">
+            <p>© 2025 DemoSite. Усі права захищено.</p>
+        </div>
+    </footer>
+</body>
+</html>
