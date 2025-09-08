@@ -1,0 +1,48 @@
+<DOCTYPE HTML>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Реєстрація користувача</title>
+</head>
+<body>
+  <header>
+    <h1>Реєстрація користувача</h1>
+  </header>
+  <main>
+    <form>
+      <label>Ім'я:
+        <input type="text" name="Введіть своє ім'я йоу" required>
+      </label><br><br>
+         <label>Прізвище:
+        <input type="text" name="Введіть Прізвище йоу" required>
+      </label><br><br>
+       <label>Дата народження:
+        <input type="text" name="Дата народження йоу" required>
+      </label><br><br>  
+      <label>Пароль:
+        <input type="password" name="password" required> </label><br><br>
+       <p>Стать:</p>
+      <label><input type="radio" name="gender" value="male"> Чоловік</label>
+      <label><input type="radio" name="gender" value="female"> Жінка</label><br><br>
+      <label>Підтвердження пароля:
+        <input type="password" name="Пітвердіть пароль" required>
+      </label><br><br>
+       <label> Email:
+        <input type="email" name="email" required> </label><br><br>
+         <label>Країна:
+        <select name="select Country" required>
+          <option value="">Оберіть країну</option>
+          <option value="ua">Україна</option>
+          <option value="pl">Польща</option>
+          <option value="de">Німеччина</option>
+        </select>
+      </label><br><br>
+      <label>Телефон (Не є обов'язковим)
+        <input type="tel" name="phone" pattern="[0-9]+" required> </label><br><br>
+      <label>
+        <input type="checkbox" name="terms" required> Погоджуюсь з умовами </label><br><br>
+      <button type="submit">Зареєструватися</button>
+      <footer>
+      <p>2025 Усі права дядь юри сбережені
+      </footer>
+    </form>
+  </main>
