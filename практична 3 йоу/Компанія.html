@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Персонал компанії</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 30px;
+      background: #f8f9fa;
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    th, td {
+      border: 1px solid #555;
+      padding: 12px;
+      text-align: center;
+      vertical-align: middle;
+    }
+    th {
+      background-color: #333;
+      color: white;
+    }
+    /* Відділи */
+    .it {
+      background-color: #e6f2ff;
+    }
+    .hr {
+      background-color: #fff0f5;
+    }
+    .sales {
+      background-color: #f0fff0;
+    }
+    /* Фото */
+    img {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+  <h1>Таблиця персоналу компанії</h1>
+  <table>
+    <tr>
+      <th>Відділ</th>
+      <th>Посада</th>
+      <th>Ім’я</th>
+      <th>Фото</th>
+      <th>Контакти</th>
+    </tr>
+    <tr>
+      <td class="it" rowspan="3">IT Відділ</td>
+      <td>Керівник відділу</td>
+      <td>ПЕТРООО</td>
+      <td><img src="image/шварцнегр.jpg" alt="Петрo"></td>
+      <td>petrooocompany.com<br>+380 67 111 22 33</td>
+    </tr>
+    <tr>
+      <td>Програміст</td>
+      <td>Астольфо</td>
+      <td><img src="image/astolfo.jpg" alt="жінка (можливо)"></td>
+      <td>astolfocompany.com<br>+380 67 222 33 44</td>
+    </tr>
+    <tr>
+      <td>Тестувальник</td>
+      <td><em>Вакансія</em></td>
+      <td>—</td>
+      <td>hrcompany.com</td>
+    </tr>
+    <tr>
+      <td class="hr" rowspan="2">HR Відділ</td>
+      <td>HR-менеджер</td>
+      <td>Марія пряніки такі</td>
+      <td><img src="image/кампанія.jpg" alt="хтось там"></td>
+      <td>someonecompany.com<br>+380 67 555 66 77</td>
+    </tr>
+    <tr>
+      <td>Асистент</td>
+      <td>СЕРГІЙ СВАРКА</td>
+      <td><img src="image/взльот.jfif" alt="якісь там Сергій"></td>
+      <td>serehacompany.com<br>+380 67 777 88 99</td>
+    </tr>
+    <tr>
+      <td class="sales" rowspan="2">Відділ продажу</td>
+      <td>Менеджер з продажу</td>
+      <td>Аннюта Єдиноріжка</td>
+      <td><img src="image/йоу2.jpg" alt="Аннюта"></td>
+      <td>anna.unicorncompany.com<br>+380 67 999 00 11</td>
+    </tr>
+    <tr>
+      <td>Маркетолог</td>
+      <td>—</td>
+      <td><em>Вакансія</em></td>
+      <td>hrcompany.com</td>
+    </tr>
+  </table>
+  <div class="note">
+    <strong>Примітки:</strong><br>
+    У вересні святкують дні народження: Петро <em> (12.09)</em> та <em>наш лютий фембойчік (25.09)</em>.<br>
+    Команда IT відділу отримала нагороду за успішний запуск нового мобільного застосунку.
+  </div>
+</body>
+</html>
